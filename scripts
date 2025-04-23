@@ -1,0 +1,25 @@
+<<<<<<< HEAD
+// Wait until the DOM is fully loaded
+document.addEventListener("DOMContentLoaded", function () {
+    // Get the button element by its ID
+    const button = document.getElementById("changeTextButton");
+
+    // Add a click event listener to the button
+    button.addEventListener("click", function () {
+        // Change the content of the <p> tag
+        document.querySelector("p").textContent = "You clicked the button!";
+    });
+});
+=======
+// Wait until the DOM is fully loaded
+document.addEventListener("DOMContentLoaded", function () {
+    // Get the button element by its ID
+    const button = document.getElementById("changeTextButton");
+
+    // Add a click event listener to the button
+    button.addEventListener("click", function () {
+        // Change the content of the <p> tag
+        document.querySelector("p").textContent = "You clicked the button!";
+    });
+});
+>>>>>>> ffa14f8b3df2e2736544dd035808f6d467a0bb10
